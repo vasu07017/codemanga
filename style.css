@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding :0px;
+    
+        box-sizing: border-box;
+    }
+    
+    nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #504954;
+    font-family: 'Poppins', sans-serif;}
+    .logo{
+        color: rgb(226, 226, 226);
+       text-transform: uppercase;
+       letter-spacing: 5px;
+       font-size: 20px;}
+       .nav-links{
+       display: flex;
+       
+       justify-content: space-around;
+       width: 30%;
+       }
+       .nav-links  li{
+        list-style:none;
+       }
+       .nav-links  a{
+       color:rgb(17, 10, 10);
+       text-decoration: none;
+       letter-spacing: 3px;
+       font-weight: bold;
+       font-size: 14px;
+       }
+       .background-image {
+
+        background-image: url('./2.gif');
+        background-size: cover;
+      background-repeat: no-repeat;
+        
+        height :200vh;
+    }
+    
+    .background-image2 {
+        
+        background-image: url('helloworldi.jpg');
+        background-size: contain;
+      background-repeat: no-repeat;
+        width: 50%;
+        height : 100vh;
+    }
+    .background-image3{
+        
+        background-image: url('pattern.png');
+        background-size: contain;
+      background-repeat: no-repeat;
+        width: 50%;
+        height : 100vh;
+    }
