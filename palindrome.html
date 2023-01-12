@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href='style.css'>
+    <title>hello world</title>
+
+
+</head>
+<body bgcolor="black">
+    
+    <nav>
+        <div class="logo">
+            <h4>Code manga</h4>
+        </div>
+        <ul class="nav-links">
+         <li>
+                <a href="index.html">
+                    <font color="white">Home </font></a>
+            </li>
+            <li>
+                <a href="codes.html">
+                    <font color="white">codes</font></a>
+            </li>
+            <li>
+                <a href="#">
+                    <font color="white">games
+                    </font></a>
+            </li>
+            <li>
+                <a href="contact.html"><font color="white">Contact us</font></a>
+            </li>
+         </ul>
+    </nav>
+    
+    
+
+
+<center><h1><font color="red">Code to check palindome</h1></font></center>
+    <pre><font color="green" size="6">
+        <br>
+        #include&#60;stdio.h&#62;<br>
+        using namespace std;<br>
+        int main()<br>
+        {
+            int number, reverse_number = 0, temp_number;
+            printf("Enter a number to check palindrome value:"); // allow user to enter a number
+            scanf("%d", &number); // takes value from user
+            temp_number = number;  //store number to temp_number
+            while (number != 0)
+            {
+            reverse_number = reverse_number * 10;
+            reverse_number = reverse_number + number % 10;
+            number = number / 10;
+            }
+            if(temp_number == reverse_number) // check reverse number with original number
+            {
+            printf("Given number is palindrome"); //if match, print palindrome
+            }
+            else
+            {
+            printf("Given number is not palindrome"); // If it don’t match with original print not palindrome
+            }
+            return 0;}
+        
+                    </font> </pre>
+                        <h2>Output in console
+</h2>
+    <div class="background-image8"></div>
+</body>
+</html>

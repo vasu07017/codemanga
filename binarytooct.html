@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href='style.css'>
+    <title>hello world</title>
+
+
+</head>
+<body bgcolor="black">
+    
+    <nav>
+        <div class="logo">
+            <h4>Code manga</h4>
+        </div>
+        <ul class="nav-links">
+         <li>
+                <a href="index.html">
+                    <font color="white">Home </font></a>
+            </li>
+            <li>
+                <a href="codes.html">
+                    <font color="white">codes</font></a>
+            </li>
+            <li>
+                <a href="#">
+                    <font color="white">games
+                    </font></a>
+            </li>
+            <li>
+                <a href="contact.html"><font color="white">Contact us</font></a>
+            </li>
+         </ul>
+    </nav>
+    
+    
+
+
+<center><h1><font color="red">Code to convert binary to oct</h1></font></center>
+    <pre><font color="green" size="6">
+        <br>
+        #include&#60;stdio.h&#62;<br>
+        
+        
+        using namespace std;<br>
+        int binaryToOctal(long binarynum)
+        {
+        int octalnum = 0, decimalnum = 0, i = 0;
+
+        /* This while loop converts binary number "binarynum" to the
+        * decimal number "decimalnum"
+        */
+        while(binarynum != 0)
+        {
+        decimalnum = decimalnum + (binarynum%10) * pow(2,i);
+        i++;
+        binarynum = binarynum / 10;
+        }
+
+        //i is re-initialized
+        i = 1;
+
+        /* This loop converts the decimal number "decimalnum" to the octal
+        * number "octalnum"
+        */
+        while (decimalnum != 0)
+        {
+        octalnum = octalnum + (decimalnum % 8) * i;
+        decimalnum = decimalnum / 8;
+        i = i * 10;
+        }
+
+        //Returning the octal number that we got from binary number
+        return octalnum;
+        }
+        int main()
+        {
+        long binarynum;
+
+        printf("Enter a binary number: ");
+        scanf("%ld", &binarynum);
+
+        // calling the function here
+        printf("Equivalent octal value: %d", binaryToOctal(binarynum));
+
+        return 0;
+        }
+              
+                            
+                    </font> </pre>
+                        <h2>Output in console
+</h2>
+<div class="background-image24 "></div>
+</body>
+</html>

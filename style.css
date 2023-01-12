@@ -1,0 +1,264 @@
+*{
+    margin: 0px;
+    padding :0px;
+    
+        box-sizing: border-box;
+    }
+    
+    nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #504954;
+    font-family: 'Poppins', sans-serif;}
+    .logo{
+        color: rgb(226, 226, 226);
+       text-transform: uppercase;
+       letter-spacing: 5px;
+       font-size: 20px;}
+       .nav-links{
+       display: flex;
+       
+       justify-content: space-around;
+       width: 30%;
+       }
+       .nav-links  li{
+        list-style:none;
+       }
+       .nav-links  a{
+       color:rgb(17, 10, 10);
+       text-decoration: none;
+       letter-spacing: 3px;
+       font-weight: bold;
+       font-size: 14px;
+       }
+       .background-image {
+
+        background-image: url('./2.gif');
+        background-size: cover;
+      background-repeat: no-repeat;
+        
+        height :200vh;
+    }
+    
+    .background-image2 {
+        
+        background-image: url('helloworldi.jpg');
+        background-size: contain;
+      background-repeat: no-repeat;
+        width: 50%;
+        height : 100vh;
+    }
+    .background-image3{
+        
+        background-image: url('pattern.png');
+        background-size: contain;
+      background-repeat: no-repeat;
+        width: 50%;
+        height : 100vh;
+    }
+    .background-image4{
+        
+      background-image: url('factorial.png');
+      background-size: contain;
+    background-repeat: no-repeat;
+      width: 50%;
+      height : 100vh;
+  }
+  .background-image5{
+        
+    background-image: url('fibonacci.png');
+    background-size: contain;
+  background-repeat: no-repeat;
+    width: 50%;
+    height : 100vh;
+}
+.background-image6{
+        
+  background-image: url('numberpyramid.PNG');
+  background-size: contain;
+background-repeat: no-repeat;
+  width: 50%;
+  height : 100vh;
+}
+.background-image7{
+        
+  background-image: url('armstrongnumber.jpeg');
+  background-size: contain;
+background-repeat: no-repeat;
+  width: 50%;
+  height : 100vh;
+}
+
+
+
+
+.background-image8{
+        
+  background-image: url('palindrome.jpeg');
+  background-size: contain;
+background-repeat: no-repeat;
+  width: 50%;
+  height : 100vh;
+}
+.background-image9{
+        
+  background-image: url('squareroot.png');
+  background-size: contain;
+background-repeat: no-repeat;
+  width: 50%;
+  height : 100vh;
+}
+.background-image10{
+        
+  background-image: url('prime.jpeg');
+  background-size: contain;
+background-repeat: no-repeat;
+  width: 50%;
+  height : 100vh;
+}
+.background-image11{
+        
+  background-image: url('leapyear.jpeg');
+  background-size: contain;
+background-repeat: no-repeat;
+  width: 50%;
+  height : 100vh;
+}
+.background-image12{
+        
+  background-image: url('random.jpeg');
+  background-size: contain;
+background-repeat: no-repeat;
+  width: 50%;
+  height : 100vh;
+}
+.background-image13{
+        
+  background-image: url('greatestof3.jpeg');
+  background-size: contain;
+background-repeat: no-repeat;
+  width: 50%;
+  height : 100vh;
+}
+.background-image14{
+        
+  background-image: url('mult.jpeg');
+  background-size: contain;
+background-repeat: no-repeat;
+  width: 50%;
+  height : 100vh;
+}
+.background-image15{
+        
+  background-image: url('lcm.jpeg');
+  background-size: contain;
+background-repeat: no-repeat;
+  width: 50%;
+  height : 100vh;
+}
+.background-image16{
+        
+  background-image: url('numd.jpeg');
+  background-size: contain;
+background-repeat: no-repeat;
+  width: 50%;
+  height : 100vh;
+}
+.background-image17{
+        
+  background-image: url('power.jpeg');
+  background-size: contain;
+background-repeat: no-repeat;
+  width: 50%;
+  height : 100vh;
+}
+.background-image18{
+        
+  background-image: url('arlar.jpeg');
+  background-size: contain;
+background-repeat: no-repeat;
+  width: 50%;
+  height : 100vh;
+}
+.background-image19{
+        
+  background-image: url('sumarr.jpeg');
+  background-size: contain;
+background-repeat: no-repeat;
+  width: 50%;
+  height : 100vh;
+}
+.background-image20{
+        
+  background-image: url('dectobin.jpeg');
+  background-size: contain;
+background-repeat: no-repeat;
+  width: 50%;
+  height : 100vh;
+}
+.background-image21{
+        
+  background-image: url('readfrst.jpeg');
+  background-size: contain;
+background-repeat: no-repeat;
+  width: 50%;
+  height : 100vh;
+}
+.background-image22{
+        
+  background-image: url('qnr.jpeg');
+  background-size: contain;
+background-repeat: no-repeat;
+  width: 50%;
+  height : 100vh;
+}
+.background-image23{
+        
+  background-image: url('nCr.jpeg');
+  background-size: contain;
+background-repeat: no-repeat;
+  width: 50%;
+  height : 100vh;
+}
+.background-image24{
+        
+  background-image: url('bintooct.jpeg');
+  background-size: contain;
+background-repeat: no-repeat;
+  width: 50%;
+  height : 100vh;
+}
+.background-image25{
+        
+  background-image: url('bubblesort.jpeg');
+  background-size: contain;
+background-repeat: no-repeat;
+  width: 50%;
+  height : 100vh;
+}
+.background-image26{
+        
+  background-image: url('nPr.jpeg');
+  background-size: contain;
+background-repeat: no-repeat;
+  width: 50%;
+  height : 100vh;
+}
+.background-image27{
+        
+  background-image: url('nPr.jpeg');
+  background-size: contain;
+background-repeat: no-repeat;
+  width: 50%;
+  height : 100vh;
+}
+background-image28{
+        
+  background-image: url('mulflow.jpeg');
+  background-size: contain;
+background-repeat: no-repeat;
+  width: 50%;
+  height : 100vh;
+}

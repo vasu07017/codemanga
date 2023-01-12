@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href='style.css'>
+    <title>hello world</title>
+
+
+</head>
+<body bgcolor="black">
+    <nav>
+        <div class="logo">
+            <h4>Code manga</h4>
+        </div>
+        <ul class="nav-links">
+         <li>
+                <a href="codemanga.html">
+                    <font color="white">Home </font></a>
+            </li>
+            <li>
+                <a href="codes.html">
+                    <font color="white">codes</font></a>
+            </li>
+            <li>
+                <a href="#">
+                    <font color="white">games
+                    </font></a>
+            </li>
+            <li>
+                <a href="contact.html"><font color="white">Contact us</font></a>
+            </li>
+         </ul>
+    </nav>    
+    
+
+
+<center><h1><font color="red">Code for finding nPr</h1></font></center>
+    <pre><font color="green" size="6">
+        <br>
+        #include&#60;stdio.h&#62;<br>
+        
+        
+        using namespace std;<br>
+            void main()
+            {
+                int n, r, npr_var;
+             
+                printf("Enter the value of n:");
+                scanf("%d", &n);
+                printf("\nEnter the value of r:");
+                scanf("%d", &r);
+                
+                /* nPr is also known as P(n,r), the formula is:
+                 * P(n,r) = n! / (n - r)! For 0 <= r <= n.
+                 */
+                npr_var = fact(n) / fact(n - r);
+                printf("\nThe value of P(%d,%d) is: %d",n,r,npr_var);
+            }
+            // Function for calculating factorial
+            int fact(int num)
+            {
+                int k = 1, i;
+                // factorial of 0 is 1
+                if (num == 0)
+                {
+                    return(k);
+                }
+                else
+                {
+                    for (i = 1; i <= num; i++)
+                {
+                        k = k * i;
+                }
+                }
+                return(k);
+            
+              
+            }        
+                    </font> </pre>
+                        <h2>Output in console
+</h2>
+<div class="background-image26 "></div>
+</body>
+</html>

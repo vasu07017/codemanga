@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href='style.css'>
+    <title>hello world</title>
+
+
+</head>
+<body bgcolor="black">
+    
+    <nav>
+        <div class="logo">
+            <h4>Code manga</h4>
+        </div>
+        <ul class="nav-links">
+         <li>
+                <a href="index.html">
+                    <font color="white">Home </font></a>
+            </li>
+            <li>
+                <a href="codes.html">
+                    <font color="white">codes</font></a>
+            </li>
+            <li>
+                <a href="#">
+                    <font color="white">games
+                    </font></a>
+            </li>
+            <li>
+                <a href="contact.html"><font color="white">Contact us</font></a>
+            </li>
+         </ul>
+    </nav>
+
+    
+    
+
+
+<center><h1><font color="red">Code to print fibonacci</h1></font></center>
+    <pre><font color="green" size="6">
+        <br>
+        #include&#60;stdio.h&#62;<br>
+        using namespace std;<br>
+        int main()<br>
+        {
+           int first_number = 0, second_number = 1, third_number, i, number;
+           printf("Enter the number for fibonacci series:");
+           scanf("%d",&number);
+           printf("Fibonacci Series for a given number:");
+           printf("\n%d %d", first_number, second_number); //To print 0 and 1
+          for(i = 2; i < number; ++i) //loop will starts from 2 because we have printed 0 and 1 before
+          {
+           third_number = first_number + second_number;
+           printf(" %d", third_number);
+           first_number = second_number;
+           second_number = third_number;
+             }
+    </font> </pre>
+
+}
+    
+    <h2>Output in console
+</h2>
+    <div class="background-image5 "></div>
+</body>
+</html>
